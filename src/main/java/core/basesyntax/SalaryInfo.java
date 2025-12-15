@@ -34,6 +34,6 @@ public class SalaryInfo {
                     .append(fullSalary)
                     .append(System.lineSeparator());
         }
-        return salaryReport.toString();
+        return salaryReport.toString().trim();
     }
 }
